@@ -1,0 +1,92 @@
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #61827d;
+    color:#342a1d;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    user-select: none;
+    
+
+}
+
+h1{
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 24px;
+    color: #CADEDB;
+    padding-top: 24px;
+}
+
+img {
+    height: 140px;
+    margin-top: 24px;
+    opacity: 0.35;
+}
+
+textarea{
+    height:200px;
+    width: 300px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 16px;
+    background-color: #f1faee;
+    border: none;
+    box-sizing: border-box;
+    padding: 16px;
+    font-weight: 500;
+}
+
+textarea:focus{
+    outline: 2px solid #B44108;
+}
+
+button{
+    margin: 24px 0;
+    padding: 16px 32px;
+    width: 300px;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    background-color: #B44108;
+    color: #E7CEC3;
+}
+
+#praises-container{
+    background-color: #3C615C;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+    padding:0 0 32px 0;
+    
+
+}
+
+ul li{
+    margin:0;
+    border-radius: 8px;
+    background-color: #f1faee;
+    padding: 16px;
+    width: 272px;
+    text-align: left;
+    font-weight: 500;
+    border-left: 12px solid #E0BCAB;
+}
